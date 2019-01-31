@@ -1,0 +1,35 @@
+.slider {
+    max-width: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider-img{
+    width: 1750px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.slider-img img {
+    width: 250px;
+    height: 150px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+}
+button {
+    width: 40px;
+    height: 20px;
+    margin: 10%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover {
+    width: 500px;
+    height: 300px;
+}
